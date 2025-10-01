@@ -1,0 +1,187 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+*.tgz
+
+# Logs
+logs
+*.log
+server.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows Zone.Identifier files
+*:Zone.Identifier
+*:Zone.Identifier:Zone.Identifier
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificate and key files (keep structure but ignore actual files)
+backend/certificate_validator/keys/*.pem
+backend/certificate_validator/keys/*.key
+backend/certificate_validator/signed/*.pdf
+backend/certificate_validator/signed/*.sig.json
+backend/certificate_validator/cert_pdfs/*.pdf
+backend/certificate_validator/legacy_pdfs/*.pdf
+backend/certificate_validator/qr_pdf_output/*.pdf
+
+# Keep blockchain folder structure but ignore large files
+blockchain/fabric/bin/
+blockchain/fabric/config/
+blockchain/fabric/scripts/
+blockchain/venv/
+
+# Keep blockchain files but ignore generated content
+blockchain/fabric/chaincode/
+!blockchain/fabric/chaincode/go.mod
+!blockchain/fabric/chaincode/*.go
+
+# Ignore entire fabric-samples folder (too large for git)
+blockchain/fabric-samples/
+
+# Docker volumes and generated blockchain data
+blockchain/data/
+blockchain/keys/
+blockchain/organizations/
+
+# Configuration files with sensitive data
+backend/certificate_validator/config.env
+backend/.env
+frontend/.env
+
+# Python virtual environment
+backend/certificate_validator/venv/
+venv/
+
+# Additional temporary files
+*.tar.gz
+*.zip
+*.bak
+*.backup
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*:Zone.Identifier

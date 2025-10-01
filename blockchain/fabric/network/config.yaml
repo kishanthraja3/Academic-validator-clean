@@ -1,0 +1,28 @@
+Organizations:
+  - &Org1
+    Name: Org1
+    ID: Org1MSP
+    MSPDir: crypto-config/peerOrganizations/org1.example.com/msp
+
+Orderer:
+  OrdererType: solo
+  Addresses:
+    - orderer.example.com:7050
+  Organizations:
+    - *Org1
+
+Peers:
+  - Name: peer0.org1.example.com
+    URL: grpc://localhost:7051
+
+Channels:
+  - Name: mychannel
+    Organizations:
+      - *Org1
+    Peers:
+      - peer0.org1.example.com
+
+CertificateAuthorities:
+  - Name: ca.org1.example.com
+    URL: http://localhost:7054
+    CAName: ca.org1.example.com

@@ -1,0 +1,303 @@
+[
+  {
+    "roll": "01110153001",
+    "university": "Ranchi University",
+    "name": "Priya Kumar",
+    "branch": "Computer Science",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "May 2021",
+    "footer_date": "November 2021"
+  },
+  {
+    "roll": "01110153002",
+    "university": "Ranchi University",
+    "name": "Rajesh Singh",
+    "branch": "Electrical Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "December 2020",
+    "footer_date": "May 2021"
+  },
+  {
+    "roll": "01110153003",
+    "university": "Ranchi University",
+    "name": "Shalini",
+    "branch": "Civil Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Second Class",
+    "exam_date": "May 2019",
+    "footer_date": "November 2019"
+  },
+  {
+    "roll": "01110153004",
+    "university": "Ranchi University",
+    "name": "Amit Kumar",
+    "branch": "Mechanical Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "April 2020",
+    "footer_date": "November 2020"
+  },
+  {
+    "roll": "01110153005",
+    "university": "Ranchi University",
+    "name": "Neha Sharma",
+    "branch": "Chemical Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Distinction",
+    "exam_date": "November 2018",
+    "footer_date": "May 2019"
+  },
+  {
+    "roll": "01110153006",
+    "university": "Ranchi University",
+    "name": "Vijay Patel",
+    "branch": "Electronics and Communication",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "July 2021",
+    "footer_date": "December 2021"
+  },
+  {
+    "roll": "01110153007",
+    "university": "Ranchi University",
+    "name": "Meena Gupta",
+    "branch": "Computer Science and Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "April 2019",
+    "footer_date": "November 2019"
+  },
+  {
+    "roll": "01110153008",
+    "university": "Ranchi University",
+    "name": "Suresh Rao",
+    "branch": "Information Technology",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "Second Class",
+    "exam_date": "August 2020",
+    "footer_date": "January 2021"
+  },
+  {
+    "roll": "01110153009",
+    "university": "Ranchi University",
+    "name": "Kavita Das",
+    "branch": "Electrical and Electronics",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "December 2019",
+    "footer_date": "May 2020"
+  },
+  {
+    "roll": "01110153010",
+    "university": "Ranchi University",
+    "name": "Rahul Jain",
+    "branch": "Civil Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Distinction",
+    "exam_date": "March 2018",
+    "footer_date": "September 2018"
+  },
+
+  {
+    "roll": "01110153011",
+    "university": "Ranchi University",
+    "name": "Simran Kaur",
+    "branch": "Mechanical Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "June 2021",
+    "footer_date": "December 2021"
+  },
+  {
+    "roll": "01110153012",
+    "university": "Ranchi University",
+    "name": "Anil Kumar",
+    "branch": "Petrochemical Technology",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "February 2020",
+    "footer_date": "August 2020"
+  },
+  {
+    "roll": "01110153013",
+    "university": "Ranchi University",
+    "name": "Priyanka Singh",
+    "branch": "Electrical Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "Second Class",
+    "exam_date": "May 2019",
+    "footer_date": "November 2019"
+  },
+  {
+    "roll": "01110153014",
+    "university": "Ranchi University",
+    "name": "Vikas Gupta",
+    "branch": "Electronics Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "July 2018",
+    "footer_date": "December 2018"
+  },
+  {
+    "roll": "01110153015",
+    "university": "Ranchi University",
+    "name": "Nisha Mehta",
+    "branch": "Information Technology",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Distinction",
+    "exam_date": "March 2017",
+    "footer_date": "September 2017"
+  },
+  {
+    "roll": "01110153016",
+    "university": "Ranchi University",
+    "name": "Santosh Yadav",
+    "branch": "Computer Science",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "October 2021",
+    "footer_date": "April 2022"
+  },
+  {
+    "roll": "01110153017",
+    "university": "Ranchi University",
+    "name": "Reena Sharma",
+    "branch": "Chemical Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Second Class",
+    "exam_date": "January 2020",
+    "footer_date": "July 2020"
+  },
+  {
+    "roll": "01110153018",
+    "university": "Ranchi University",
+    "name": "Deepak Verma",
+    "branch": "Mechanical Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "November 2019",
+    "footer_date": "May 2020"
+  },
+  {
+    "roll": "01110153019",
+    "university": "Ranchi University",
+    "name": "Sheetal Joshi",
+    "branch": "Civil Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Distinction",
+    "exam_date": "August 2018",
+    "footer_date": "February 2019"
+  },
+  {
+    "roll": "01110153020",
+    "university": "Ranchi University",
+    "name": "Rohit Singh",
+    "branch": "Petrochemical Technology",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "June 2017",
+    "footer_date": "December 2017"
+  },
+  {
+    "roll": "01110153021",
+    "university": "Ranchi University",
+    "name": "Preeti Kumari",
+    "branch": "Computer Science and Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "May 2016",
+    "footer_date": "November 2016"
+  },
+  {
+    "roll": "01110153022",
+    "university": "Ranchi University",
+    "name": "Manish Kumar",
+    "branch": "Electrical Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "Second Class",
+    "exam_date": "December 2015",
+    "footer_date": "July 2016"
+  },
+  {
+    "roll": "01110153023",
+    "university": "Ranchi University",
+    "name": "Sunita Verma",
+    "branch": "Information Technology",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "April 2014",
+    "footer_date": "November 2014"
+  },
+  {
+    "roll": "01110153024",
+    "university": "Ranchi University",
+    "name": "Akhil Singh",
+    "branch": "Petrochemical Technology",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "Distinction",
+    "exam_date": "March 2013",
+    "footer_date": "September 2013"
+  },
+  {
+    "roll": "01110153025",
+    "university": "Ranchi University",
+    "name": "Kumari Priya",
+    "branch": "Mechanical Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "October 2012",
+    "footer_date": "April 2013"
+  },
+  {
+    "roll": "01110153026",
+    "university": "Ranchi University",
+    "name": "Sanjay Kumar",
+    "branch": "Chemical Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "Second Class",
+    "exam_date": "January 2011",
+    "footer_date": "August 2011"
+  },
+  {
+    "roll": "01110153027",
+    "university": "Ranchi University",
+    "name": "Anju Sharma",
+    "branch": "Electrical and Electronics",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "First Class",
+    "exam_date": "July 2010",
+    "footer_date": "January 2011"
+  },
+  {
+    "roll": "01110153028",
+    "university": "Ranchi University",
+    "name": "Vikram Singh",
+    "branch": "Civil Engineering",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "April 2009",
+    "footer_date": "October 2009"
+  },
+  {
+    "roll": "01110153029",
+    "university": "Ranchi University",
+    "name": "Neelam Kumari",
+    "branch": "Electronics Engineering",
+    "degreeTitle": "Bachelor of Technology",
+    "class": "Second Class",
+    "exam_date": "December 2008",
+    "footer_date": "June 2009"
+  },
+  {
+    "roll": "01110153030",
+    "university": "Ranchi University",
+    "name": "Ramesh Verma",
+    "branch": "Computer Science",
+    "degreeTitle": "Bachelor of Engineering",
+    "class": "First Class",
+    "exam_date": "August 2007",
+    "footer_date": "February 2008"
+  }
+]

@@ -1,0 +1,9 @@
+pillow
+qrcode
+pyzbar
+opencv-python
+pytesseract
+fuzzywuzzy
+python-Levenshtein
+mysql-connector-python
+python-dotenv

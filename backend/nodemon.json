@@ -1,0 +1,15 @@
+{
+  "watch": ["server.js"],
+  "ignore": [
+    "temp/*",
+    "certificate_validator/temp/*",
+    "certificate_validator/signed/*",
+    "certificate_validator/scripts/*",
+    "certificate_validator/data/*",
+    "certificate_validator/keys/*",
+    "node_modules/*",
+    "*.log"
+  ],
+  "ext": "js,json",
+  "delay": 2000
+}
