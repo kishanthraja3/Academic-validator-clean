@@ -142,9 +142,7 @@ blockchain/fabric/scripts/
 blockchain/venv/
 
 # Keep blockchain files but ignore generated content
-blockchain/fabric/chaincode/
-!blockchain/fabric/chaincode/go.mod
-!blockchain/fabric/chaincode/*.go
+# blockchain/fabric/chaincode/ - REMOVED: Allow full chaincode directory
 
 # Ignore entire fabric-samples folder (too large for git)
 blockchain/fabric-samples/
