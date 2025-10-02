@@ -120,3 +120,5 @@ echo "2. Start the backend server: cd backend && npm start"
 echo "3. Start the frontend: cd frontend && npm run dev"
 echo ""
 echo "🔗 The blockchain verification will work automatically once the network is up!"
+
+

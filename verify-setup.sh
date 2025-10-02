@@ -198,3 +198,5 @@ echo "- Run: ./setup.sh to fix dependency issues"
 echo "- Run: ./blockchain-setup.sh to fix blockchain issues"
 echo ""
 echo "✅ Verification completed!"
+
+
