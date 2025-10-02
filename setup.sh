@@ -17,6 +17,15 @@ fi
 
 echo "✅ Node.js and Python 3 are installed"
 
+# Install qpdf for PDF processing
+echo "📦 Installing qpdf..."
+if ! command -v qpdf &> /dev/null; then
+    sudo apt-get update && sudo apt-get install -y qpdf
+    echo "✅ qpdf installed successfully"
+else
+    echo "✅ qpdf is already installed"
+fi
+
 # Install frontend dependencies
 echo "📦 Installing frontend dependencies..."
 cd frontend

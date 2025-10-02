@@ -126,27 +126,8 @@ def check_signature_availability(pdf_path, base_path=None):
         if os.path.exists(sidecar_path):
             return True
         
-        # Also check in the signed directory if base_path is provided
-        if base_path:
-            signed_dir = os.path.join(base_path, 'signed')
-            if os.path.exists(signed_dir):
-                # Compute hash of current PDF to look for specific signature file
-                import hashlib
-                with open(pdf_path, 'rb') as f:
-                    file_content = f.read()
-                    file_hash = hashlib.sha256(file_content).hexdigest()
-                
-                # Look for signature file that matches this specific PDF hash
-                import glob
-                sig_files = glob.glob(os.path.join(signed_dir, '*.sig.json'))
-                for sig_file in sig_files:
-                    try:
-                        with open(sig_file, 'r') as f:
-                            sig_data = json.load(f)
-                            if sig_data.get('signed_hash') == file_hash:
-                                return True
-                    except:
-                        continue
+        # Skip signed directory check - not needed for basic signature verification
+        # The signed directory is only needed for storing signature files, not for verification
         
         # Check for embedded signature metadata
         try:
@@ -209,30 +190,8 @@ def quick_pdf_metadata_check(pdf_path, base_path=None):
             print(f"Found sidecar signature file: {sidecar_path}", file=sys.stderr)
             return True
         
-        # Also check in the signed directory if base_path is provided
-        if base_path:
-            signed_dir = os.path.join(base_path, 'signed')
-            if os.path.exists(signed_dir):
-                # Compute hash of current PDF to look for specific signature file
-                import hashlib
-                with open(pdf_path, 'rb') as f:
-                    file_content = f.read()
-                    file_hash = hashlib.sha256(file_content).hexdigest()
-                
-                # Look for signature file that matches this specific PDF hash
-                import glob
-                sig_files = glob.glob(os.path.join(signed_dir, '*.sig.json'))
-                for sig_file in sig_files:
-                    try:
-                        with open(sig_file, 'r') as f:
-                            sig_data = json.load(f)
-                            if sig_data.get('signed_hash') == file_hash:
-                                print(f"Found matching signature file for this PDF: {sig_file}", file=sys.stderr)
-                                return True
-                    except:
-                        continue
-                
-                print(f"No matching signature file found for PDF hash: {file_hash[:16]}...", file=sys.stderr)
+        # Skip signed directory check - not needed for basic signature verification
+        # The signed directory is only needed for storing signature files, not for verification
         
         # Fallback: Check for embedded signature metadata in PDF
         import pikepdf
