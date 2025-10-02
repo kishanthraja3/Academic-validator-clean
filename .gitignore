@@ -127,8 +127,8 @@ venv.bak/
 *.sqlite3
 
 # Certificate and key files (keep structure but ignore actual files)
-backend/certificate_validator/keys/*.pem
-backend/certificate_validator/keys/*.key
+# backend/certificate_validator/keys/*.pem - REMOVED: Allow keys for signature pipeline
+# backend/certificate_validator/keys/*.key - REMOVED: Allow keys for signature pipeline
 backend/certificate_validator/signed/*.pdf
 backend/certificate_validator/signed/*.sig.json
 backend/certificate_validator/cert_pdfs/*.pdf
@@ -149,7 +149,7 @@ blockchain/fabric-samples/
 
 # Docker volumes and generated blockchain data
 blockchain/data/
-blockchain/keys/
+# blockchain/keys/ - REMOVED: Allow keys for signature pipeline
 blockchain/organizations/
 
 # Configuration files with sensitive data (keep these files - don't exclude)
